@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zbm2001/package-utils.git"
+    "url": "git+https://github.com/zbm2001/pkg-utils.git"
   },
   "author": "zbm2001@aliyun.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zbm2001/package-utils/issues"
+    "url": "https://github.com/zbm2001/pkg-utils/issues"
   },
-  "homepage": "https://github.com/zbm2001/package-utils#readme",
+  "homepage": "https://github.com/zbm2001/pkg-utils#readme",
   "dependencies": {
     "@zbm1/eventemitter": "^1.3.3",
     "@zbm1/uuid": "^0.1.0",
