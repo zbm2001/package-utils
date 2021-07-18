@@ -7,7 +7,7 @@
  * @param {Boolean} unencode 不需要做编码处理
  * @return {String}
  */
-module.exports = function addUrlQuery (url, key, value, unencode) {
+function addUrlQuery (url, key, value, unencode) {
   if (typeof url !== 'string') {
     throw new TypeError('arguments[0] must be a string')
   }
@@ -43,4 +43,8 @@ module.exports = function addUrlQuery (url, key, value, unencode) {
       }
   }
   return restUrl + search + hash
+}
+
+module.exports = {
+  addUrlQuery
 }
