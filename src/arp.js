@@ -1,4 +1,4 @@
-require('../../lib/utils/shelljs')
+require('./shelljs')
 
 let strRegexLANIPv4PartFirst2 = '192\\.168\\.'
 let strRegexLANIPv4Part = '(?:\\d|[1-9]\\d|1\\d{2}|[1-2](?:[0-4]\\d|5[0-5]))'
